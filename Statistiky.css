@@ -4,16 +4,22 @@
     font-family: Arial, sans-serif;
 }
 
+.navbar {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .navbar ul{
-    position: relative;
-    left: 575px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     width: 315px;
     list-style-type: none;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
-    background-color: greenyellow;
+    background-color: rgb(159, 236, 44);
 }
 
 .navbar a{
@@ -30,14 +36,13 @@
 }
 
 .navbar a:hover{
-    background-color: rgb(159, 236, 44);
+    background-color: rgb(138, 226, 5);
 }
 
 #tabulka{
     box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.71);
     background-color: greenyellow;
-    margin-top: 100px;
-    margin-left: 560px;
+    margin: 100px auto;
     border: 1px solid; height: 200px; width: 350px;
     border-radius: 8px;
 }

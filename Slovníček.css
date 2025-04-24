@@ -4,9 +4,15 @@
     font-family: Arial, sans-serif;
 }
 
+.navbar {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .navbar ul{
-    position: relative;
-    left: 575px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     width: 315px;
     list-style-type: none;
@@ -120,7 +126,19 @@
 
 #table{
     position: relative;
-    bottom: 300px;
+    bottom: 310px;
     margin-right: 40px;
     overflow: auto;
+    height: 428px;
+}
+
+#body{
+    overflow: hidden;
+}
+
+.table_sloupce{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #bbbbbb;
 }

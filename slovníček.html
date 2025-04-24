@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="Slovníček.css">
     <title>Slovníček</title>
 </head>
-<body>
+<body id="body">
     <h1 align="center" id="nadpis">
         <b>Slovníček</b>
     </h1>
@@ -85,15 +85,15 @@
         <br>
         <br>
         <br>
-        <input type="submit" id="button">
+        <button id="button">vyhledat</button>
         <hr>
         <button id="button-nepravidelná_slovesa">Nepravidelná slovesa</button>
     
     </form>
 
-
-    <table width="1000" border="1" align="right" id="table">
-        <tr align="center">
+    <div id="table">
+    <table width="1000" border="1" align="right">
+        <tr align="center" class="table_sloupce">
             <th width="100">anglické slovo</th>
             <th width="100">české slovo</th>
             <th width="100">výslovnost</th>
@@ -238,6 +238,7 @@
         </tr align="left">
 
     </table border="1">
+    </div>
 
 </body>
 </html>

@@ -79,8 +79,8 @@ function finish() {
     document.getElementById("h2").style.display = "none";
     document.getElementById("překlad-nápis").style.display = "none";
 
-    const nadpis = document.getElementById("nadpis");
-    nadpis.innerHTML = `Vyhodnocení`;
+        const nadpis = document.getElementById("nadpis");
+        nadpis.innerHTML = `Vyhodnocení`;
 
     document.getElementById("myPieChart").style.display = "block";
 
